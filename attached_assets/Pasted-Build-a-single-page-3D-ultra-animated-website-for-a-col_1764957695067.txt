@@ -1,0 +1,450 @@
+Build a **single-page 3D, ultra-animated website** for a college fest called **“Mystery-us”** for the **MCA Department, Bangalore Institute of Technology (BIT), Bengaluru**.
+
+The design inspiration and overall quality should match or exceed: **aprameya.info**  
+But the vibe, branding, and storytelling should be **unique to Mystery-us**: mysterious, neon, futuristic + cultural.
+
+Make this website feel **cinematic**, with **Framer Motion-style transitions**, **3D elements**, and **smooth micro-interactions everywhere**.
+
+---
+
+### 1. Overall Theme & Vibe
+
+- Event Name: **Mystery-us**
+- Tagline idea: **“Where Curiosity Meets Celebration”** (you can also suggest 2–3 alternative taglines in smaller text below the main one).
+- College: **Bangalore Institute of Technology – MCA Department**
+- Main events:
+  - **Day 1 – Desi Day Out (Ethnic Day)**
+  - **Day 2 – Fresh O Mania (Freshers Day)**
+  - **Day 3 – Sports Carnival** (Cricket, Volleyball, Throwball, Tug of War, Wrist/Hand Fight)
+
+**Visual Style:**
+- Dark theme with **deep blacks / dark purples / midnight blue** as base.
+- Highlights in **neon cyan, electric purple, and gold** accents.
+- Use **soft glows**, **glassmorphism cards**, and **subtle grain/noise** for a premium look.
+- Add **mystery elements**: floating question marks, glowing orbs, abstract shapes, and light trails subtly in the background.
+- Typography:
+  - Bold, futuristic heading font for titles.
+  - Clean, readable sans-serif for body text.
+
+**Core Requirements:**
+- The site must feel **3D and alive**:
+  - Use **parallax scrolling**, **depth**, and **layered sections**.
+  - Use **Framer Motion style animations** or equivalent.
+  - Use 3D effects (CSS or WebGL/Three.js) where possible.
+
+---
+
+### 2. Layout & Navigation
+
+A **sticky top navbar** with smooth scroll + scroll spy:
+
+- Logo (text or simple icon): **“Mystery-us”**
+- Menu items:
+  - Home
+  - About
+  - Days & Events
+  - Sports & Rules
+  - Schedule
+  - Gallery (placeholder)
+  - Coordinators
+  - Register
+
+Navbar behavior:
+- Transparent at top → becomes **blurred glassmorphism with a slight glow** after scrolling.
+- Active section highlighted with a **neon underline animation**.
+
+Add a **scroll-to-top floating button** with a hover glow and smooth scroll.
+
+---
+
+### 3. Hero Section (Above the Fold)
+
+Make this **INSANE** and cinematic.
+
+Content:
+- Large title: **Mystery-us 2025**
+- Subheading:  
+  “Ethnic Day, Freshers Party & Sports – MCA, Bangalore Institute of Technology”
+- Short line:  
+  “Three days of culture, chaos, and unforgettable memories.”
+
+Important info:
+- **Dates & Highlights:**
+  - Ethnic Day – **December 11, 2025** (Venue: 621 – Dress Code: Ethnic Wear)
+  - Freshers Party – **December 12, 2025** (10:30 AM, Ramegowda Seminar Hall)
+  - Sports – **Day 3** (Cricket, Volleyball, Throwball, Tug of War, Wrist/Hand Fight)
+
+Add CTAs:
+- Primary button: **“Register Now”** → scrolls to registration section.
+- Secondary button: **“View Schedule”** → scrolls to schedule section.
+
+**Hero Animations & 3D:**
+- Background: 
+  - **3D particles / stars / glow orbs** moving slowly.
+  - Gentle parallax of shapes (circles, lines, mystery symbols).
+- Centerpiece 3D element:
+  - A **3D floating cube or sphere** with:
+    - One side: “Mystery-us” logo/text.
+    - Another side: “BIT – MCA”.
+  - The object should rotate slowly and react subtly on mouse move (tilt/parallax).
+- Animate heading + subheading:
+  - Staggered fade-up and slight scale-in.
+- Countdown:
+  - Include a **glowing countdown timer** to the first day of the event.
+  - Each time unit (Days / Hours / Minutes / Seconds) in a glassmorphism card with soft neon glow.
+
+---
+
+### 4. About Section – “What is Mystery-us?”
+
+A section right after hero:
+
+Title: **About Mystery-us**  
+Subtext: “A celebration of culture, curiosity, and connection.”
+
+Text to include (you can rewrite to sound smooth and professional, but keep the meaning):
+
+- Mystery-us is a 3-day celebration by the MCA Department of Bangalore Institute of Technology.
+- It unites **seniors and juniors** through culture, music, games, sports, and shared experiences.
+- It marks the **beginning of new friendships** and the **welcome of freshers into the MCA family**.
+- Emphasize:
+  - “We celebrate who we are, where we come from, and the diversity we share as one family.”
+
+**Design & Animations:**
+- Two-column layout:
+  - Left: Text + bullet points.
+  - Right: An abstract 3D illustration or vector (students, culture, sports).
+- Cards that **hover and lift up** with subtle shadow and glow.
+- On scroll, cards slide in with **Framer Motion-like spring animations**.
+
+---
+
+### 5. Days & Events Section (3-Day Experience)
+
+Make a **3-step horizontal or vertical “journey timeline”** with big cards for each day.
+
+#### Day 1 – Desi Day Out (Ethnic Day)
+
+Show as a glowing card with cultural motifs.
+
+Content (rewrite slightly but keep soul):
+
+Title: **Day 1: Desi Day Out – Ethnic Day**  
+Description:
+“A day of colours, culture, and connection.  
+Ethnic Day brings our campus together in the vibrant spirit of tradition. It is a celebration of who we are, where we come from, and the beautiful diversity we share as one family.”
+
+Details to show clearly:
+- Date: **December 11, 2025**
+- Venue: **621**
+- Dress Code: **Ethnic Wear**
+- Mood: Traditional, colorful, joyful.
+
+Visuals:
+- Use subtle **Indian ethnic patterns** (but not cluttered).
+- Add floating **flower petals / lanterns / mandala outlines**.
+
+#### Day 2 – Fresh O Mania (Freshers Day)
+
+Title: **Day 2: Fresh O Mania – Freshers Day**
+
+Description (polish but retain meaning):
+
+“Welcome, juniors, to the beginning of a journey filled with growth, curiosity, and new possibilities. As you enter the MCA family, you step into a space where ideas evolve, connections strengthen, and ambitions find direction. This day marks the start of your path as learners, creators, and future innovators. We wish you a year filled with inspiration, confidence, and moments that turn into unforgettable memories. Here’s to fresh beginnings and a future built with purpose.”
+
+Details:
+- Date: **December 12, 2025**
+- Time: **10:30 AM**
+- Venue: **Ramegowda Seminar Hall**
+
+Visuals:
+- Fresh, energetic gradients.
+- Subtle confetti animation or floating ribbons.
+- Maybe a **3D stage spotlight** effect in the background.
+
+#### Day 3 – Sports Carnival
+
+Title: **Day 3: Sports & Spirit**
+
+Short description:
+“From friendly rivalry to full-on adrenaline, Day 3 is all about sportsmanship, unity, and high energy.”
+
+List sports as glowing pill-shaped tags:
+- Gully Cricket
+- Volleyball (Men)
+- Throwball (Women)
+- Tug of War (Men & Women)
+- Wrist / Hand Fight (Men & Women)
+
+Each sport card should animate on hover (tilt + glow).
+
+---
+
+### 6. Sports & Rules Section (Detailed Cards)
+
+Create a **grid of cards**, each with the sport name, icon, and rules.  
+Each card should be expandable (accordion or modal) with a smooth animation.
+
+#### A. Gully Cricket
+
+Card title: **Gully Cricket**
+
+Rules to include (rewrite to be clean but preserve logic):
+
+1. Matches are played on a **knockout basis**.
+2. Each team: **8 players** (7 on ground + 1 substitute).
+3. Match format: **10 overs total (5 overs per innings)**.
+4. Bowling:
+   - Only **one bowler** can bowl **2 overs** (not consecutive).
+   - All other bowlers can bowl only **1 over** each.
+5. **Sixes are considered OUT.** Only fours are allowed as boundaries.
+6. Bowler must throw the ball from inside the specified **bowling box**.
+7. Over-stepping, bending the knee, or lifting the heel from the box = **no-ball (foul)**.
+8. One **powerplay** per innings:
+   - Can be chosen at any time.
+   - **Runs scored in that over are doubled.**
+
+#### B. Volleyball (Men)
+
+Card title: **Volleyball (Men)**
+
+Rules:
+
+1. Team size: **6 players on court + 2 substitutes**.
+2. Match format: **Best of 3 sets**.
+3. Serve from behind the baseline.
+4. Scoring: **Rally scoring** – every rally wins a point.
+5. Faults:
+   - Touching the net.
+   - Crossing the center line.
+   - Double touch.
+   - Carrying the ball.
+
+#### C. Throwball (Women)
+
+Card title: **Throwball (Women)**
+
+Rules:
+
+1. Team size: **7 players on court + 2 substitutes**.
+2. Service:
+   - Overhead.
+   - Must be **thrown, not hit**.
+3. Ball handling:
+   - Catch cleanly with both hands.
+   - Throw within **3 seconds**.
+4. Court rules:
+   - No jumping while throwing.
+   - No crossing the center line.
+5. Scoring:
+   - **Rally point system**.
+   - Ball touching the net during service = fault.
+
+#### D. Tug of War (Men and Women)
+
+Card title: **Tug of War (Men & Women)**
+
+Rules:
+
+1. Team size: **8 players per team**.
+2. Start: Pull begins on **whistle**.
+3. Rope:
+   - Rope has a **center mark**.
+   - Win condition: center mark must cross the opponent’s marker line.
+4. Grip:
+   - No sitting.
+   - No wrapping rope around the body.
+   - No sudden jerks.
+5. Footing:
+   - Feet must remain behind the starting line until whistle.
+6. Winner: Team that pulls the rope mark past opponent’s line.
+
+#### E. Wrist / Hand Fight (Men & Women)
+
+Card title: **Wrist / Hand Fight (Men & Women)**
+
+Rules:
+
+1. Match format: **1 vs 1**, knockout basis.
+2. Starting position:
+   - Players stand facing each other.
+   - Grip **right hands** firmly on referee’s signal.
+3. Objective:
+   - Force the opponent to release grip or lose balance.
+4. Legal moves:
+   - Push, pull, twist, and rotate the hand/wrist **within natural range**.
+5. Illegal moves:
+   - No pulling/bending single fingers.
+   - No hitting/slapping.
+   - No scratching or grabbing clothes/hair.
+6. Winning:
+   - Opponent releases grip.
+   - Opponent touches the ground with any body part other than feet.
+   - Opponent taps out.
+7. Match format:
+   - **Best of 3 rounds**.
+   - Each round = **30 seconds**.
+8. Safety:
+   - Stop immediately on referee’s call or tap.
+   - Excessive force is not allowed.
+
+**Animations for this section:**
+- Each card fades & slides up on scroll.
+- On hover:
+  - Slight 3D tilt.
+  - Neon border glow.
+- On click:
+  - Smooth expand animation (Framer Motion) or modal with blurred background.
+
+---
+
+### 7. Schedule Section
+
+Create a **timeline-style schedule** for the 3 days.
+
+- Use a horizontal or vertical timeline with nodes for:
+  - Day 1 – Ethnic Day
+  - Day 2 – Freshers Party
+  - Day 3 – Sports
+
+For now, keep placeholders for detailed timings and sessions (dance, games, etc.), which can be filled later.  
+Make each day node clickable, expanding into a card with time slots.
+
+Include small icons:
+- 🎭 for Ethnic Day.
+- 🎉 for Freshers Party.
+- 🏆 for Sports.
+
+---
+
+### 8. Registration Section
+
+A prominent section with a glowing card.
+
+Title: **Register for Mystery-us**  
+Text example:
+
+“Help us plan better! Please fill out the registration form so we can arrange everything smoothly for Ethnic Day, Freshers Party, and Sports events.”
+
+Include:
+- Primary button: **“Fill Registration Form”**
+- Put a placeholder link text:  
+  `Form Link (to be updated later)`
+
+Button style:
+- Big, pill-shaped.
+- Neon glow and hover lift.
+- Click scroll highlight effect.
+
+---
+
+### 9. Coordinators Section
+
+Inspired by aprameya.info, have a **coordinators/team section**:
+
+Subsections:
+- Faculty Coordinators (placeholder names).
+- Student Coordinators (placeholder names, phone numbers).
+- Tech & Design Team (optional).
+
+Each person in a **profile card**:
+- Circular image placeholder.
+- Name.
+- Role (e.g., “Event Head”, “Coordinator”, “Tech Team”).
+- Phone/contact info (optional).
+
+Animations:
+- Fade-in on scroll.
+- On hover: slight scale + glow + shadow.
+
+---
+
+### 10. Gallery Section (Placeholder)
+
+Add a **Gallery** section with a responsive grid of image placeholders for:
+- Ethnic day outfits.
+- Stage performances.
+- Sports.
+
+For now:
+- Use sample images or gradient cards with “Photo coming soon”.
+- On hover: zoom-in effect with a slight rotation.
+
+---
+
+### 11. Footer
+
+Footer content:
+
+- Event name: **Mystery-us – MCA Dept., Bangalore Institute of Technology**
+- Short line: “Designed for the MCA family – where mystery meets memories.”
+- Social icons (placeholders for Instagram, email).
+- © 2025 Mystery-us. All Rights Reserved.
+
+Footer design:
+- Dark background.
+- Thin glowing top border.
+- Smooth scroll back to top on logo click.
+
+---
+
+### 12. Motion, Transitions & Micro-interactions (Very Important)
+
+Make the site feel like a **Framer / high-end portfolio**:
+
+- Use **Framer Motion style**:
+  - Staggered animations when sections enter.
+  - Slight springy motion on cards.
+- Use **page transition**:
+  - When navigating (scrolling or clicking anchor links), use smooth easing.
+- **Parallax**:
+  - Layered background elements move at different speeds on scroll.
+- **3D & Hover Effects**:
+  - Cards tilt slightly on hover (3D transform).
+  - Buttons have soft glow and scale-up on hover.
+- **Cursor Effects** (optional but preferred):
+  - Custom cursor or a glowing circle that follows the pointer.
+  - Hovering over buttons/links enlarges or changes color of cursor aura.
+
+Performance:
+- Keep animations smooth and optimized.
+- Avoid overwhelming the user; balance is key.
+
+---
+
+### 13. Responsiveness
+
+The website must be **fully responsive**:
+
+- Desktop: Hero should feel cinematic with big visuals.
+- Tablet: Stack cards nicely, maintain animations.
+- Mobile:
+  - Smooth scroll.
+  - Simplified but still animated hero.
+  - Timeline and rules in collapsible accordions.
+
+---
+
+### 14. Tech / Implementation Preference (if applicable)
+
+If using React/Next.js:
+- Use **Framer Motion** for animations.
+- Use **Three.js / React Three Fiber** or subtle CSS 3D transforms for 3D elements.
+- Clean, reusable components and clear section structure.
+
+---
+
+In summary:
+
+Create a **3D, animated, ultra-modern single-page event website** called **“Mystery-us”**, inspired in quality and structure by **aprameya.info**, but with a **unique mysterious + cultural + freshers vibe** for **Bangalore Institute of Technology (MCA Department)**, showcasing:
+
+- Hero with 3D element + countdown.
+- About section.
+- 3-day event timeline (Ethnic Day, Freshers Party, Sports).
+- Detailed sports rules with interactive cards.
+- Schedule.
+- Coordinators.
+- Gallery.
+- Registration call-to-action.
+
+Everything should feel **smooth, glowing, mysterious, and absolutely “🔥 fire” in animations and visuals.**
