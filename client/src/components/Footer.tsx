@@ -41,7 +41,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4 mb-8">
             <motion.a
-              href="https://instagram.com"
+              href="https://www.instagram.com/mcabit_1997"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -3 }}
@@ -51,6 +51,7 @@ export function Footer() {
             >
               <Instagram className="w-5 h-5 text-muted-foreground group-hover:text-neon-pink transition-colors" />
             </motion.a>
+
             <motion.a
               href="mailto:mca@bit.edu.in"
               whileHover={{ scale: 1.1, y: -3 }}
