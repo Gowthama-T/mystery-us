@@ -13,70 +13,50 @@ export interface IStorage {
 
 const coordinatorsData: Coordinator[] = [
   {
-    id: "1",
-    name: "Dr. Faculty Name",
-    role: "Faculty Coordinator",
-    type: "faculty",
-    department: "MCA Department",
-    email: "faculty@bit.edu.in",
-    phone: "+91 98765 43210",
-  },
-  {
-    id: "2",
-    name: "Prof. Faculty Name",
-    role: "Faculty Advisor",
-    type: "faculty",
-    department: "MCA Department",
-    email: "advisor@bit.edu.in",
-    phone: "+91 98765 43211",
-  },
-  {
     id: "3",
-    name: "Student Name",
+    name: "Girish",
     role: "Event Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "+91 98765 43212",
+    phone: "8792705150",
   },
-  {
-    id: "4",
-    name: "Student Name",
-    role: "Co-Coordinator",
-    type: "student",
-    year: "2nd Year MCA",
-    phone: "+91 98765 43213",
-  },
+ 
   {
     id: "5",
-    name: "Student Name",
+    name: "Sachin",
     role: "Sports Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "+91 98765 43214",
+    phone: "9449444578",
   },
+
   {
-    id: "6",
-    name: "Student Name",
+    id: "7",
+    name: "Gnanasharan",
     role: "Cultural Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "+91 98765 43215",
+    phone: "6362894336",
   },
-  {
-    id: "7",
-    name: "Student Name",
-    role: "Tech Lead",
-    type: "tech",
+   {
+    id: "4",
+    name: "Likith",
+    role: "Photography Head",
+    type: "student",
     year: "2nd Year MCA",
+    phone: "9164893804",
   },
   {
     id: "8",
-    name: "Student Name",
-    role: "Design Lead",
+    name: "Gowtham",
+    role: "Tech Lead / Developer",
     type: "tech",
     year: "2nd Year MCA",
+    phone: "9164893804",
   },
 ];
+
+
 
 const eventsData: Event[] = [
   {
