@@ -44,7 +44,7 @@ const coordinatorsData: Coordinator[] = [
     role: "Photography Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "9164893804",
+    phone: "8105207880",
   },
   {
     id: "8",
