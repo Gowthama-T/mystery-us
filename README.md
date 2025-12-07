@@ -1,102 +1,114 @@
-Mystery-us – MCA Department Event Website
+# 🎭 Mystery-us – MCA Department Event Website
 
-A modern & interactive event website built for the MCA Department, Bangalore Institute of Technology (BIT).
-Created to manage and showcase 3 days of events including cultural programs, freshers welcome, sports, schedules, and team coordinators.
+This is the official event website for **Mystery-us**, organized by the **MCA Department, Bangalore Institute of Technology (BIT)**.
+It contains details about **3-day programs**, **sports rules**, **schedules**, and **student coordinators** with a modern animated UI.
 
-🌐 Live Website
+---
 
-https://mystery-us.onrender.com
+## 🌐 Live Website
 
-🚀 Tech Stack
-Category	Technologies
-Frontend	React, TypeScript, Vite, TailwindCSS, Framer Motion, ShadCN UI
-Backend	Node.js, Express.js
-Database	In-memory storage (upgradable to MongoDB / PostgreSQL)
-API Client	TanStack React Query
-Hosting	Render
-Animations	Framer Motion
-Icons	Lucide React
-✨ Features
+🔗 **[https://mystery-us.onrender.com](https://mystery-us.onrender.com)**
 
-🎉 Event information & schedule for 3 days
+---
 
-🏆 Complete sports rules & highlights
+## 🛠 Tech Stack
 
-📅 Live event schedule timeline
+| Section     | Technologies                                                    |
+| ----------- | --------------------------------------------------------------- |
+| Frontend    | React + TypeScript, Vite, TailwindCSS, Framer Motion, ShadCN UI |
+| Backend     | Node.js, Express.js                                             |
+| State & API | TanStack React Query                                            |
+| Hosting     | Render                                                          |
+| Icons       | Lucide-React                                                    |
 
-👤 Coordinator & team leader details
+---
 
-📱 Mobile responsive UI with glass morphism design
+## 📦 Project Setup
 
-⚡ Smooth animations & fast loading
+### **Clone repository**
 
-🔔 Scroll-to-section navigation
-
-😎 Cool neon UI theme
-
-📢 Social Media & Email contact integrated
-
-📍 Event Days
-Day	Theme	Description
-Day 1	Desi Day Out	Ethnic wear celebration
-Day 2	Fresh O Mania	Freshers Party
-Day 3	Sports & Spirit	Sports competitions and team events
-🧑‍💻 Coordinators & Leaders
-Role	Name
-Event Head	Girisha S R
-Coordinator	Gowthama T
-Sports Heads	Sachin, Girisha S R
-Cultural Head	GnanaSharan G V
-Tech Lead & Developer	Gowthama T
-📦 Installation & Setup (Local Development)
+```sh
 git clone https://github.com/Gowthama-T/mystery-us.git
 cd mystery-us
+```
+
+### **Install dependencies**
+
+```sh
 npm install
+```
+
+### **Run development environment**
+
+```sh
 npm run dev
+```
 
-Start development server
+Default dev URL:
 
-Runs frontend + backend together on:
-
+```
 http://localhost:5000
+```
 
-⚙ Production Build
+### **Build & Run in production**
+
+```sh
 npm run build
 npm start
+```
 
-🌍 Deployment
-Service	URL
-Render Backend + Frontend	https://mystery-us.onrender.com
+---
 
-Frontend-only deployment to Vercel can be added later.
+## 📁 Folder Structure
 
-📚 Folder Structure
+```
 mystery-us/
-│── client/ (React + Vite Frontend)
-│── server/ (Node + Express Backend)
-│── shared/ (Schema & Types)
-│── dist/ (Production build output)
-│── package.json
-│── README.md
+├── client/        # Frontend (React + Vite)
+├── server/        # Backend (Express API)
+├── shared/        # Shared schema & types
+├── dist/          # Production build output
+├── package.json
+└── README.md
+```
 
-🤝 Contributing
+---
 
-Pull requests are welcome! If you'd like to improve UI or add new features, feel free to fork and submit.
+## ✨ Features
 
-🛡 License
+* Coordinators section with live API
+* Sports rules with collapsible cards
+* Schedule timeline by event day
+* Animated UI (glassmorphism + neon theme)
+* Fully responsive & mobile-friendly
+* Smooth section navigation and scroll-to-top
+* Instagram + Email contact
 
-This project is licensed under the MIT License.
+---
 
-❤️ Acknowledgements
+## 📸 Social Links
 
-Designed & developed with 💖 by MCA Students, BIT Bangalore
-Follow us on Instagram:
-👉 https://www.instagram.com/mcabit_1997
+📍 Instagram: **[https://www.instagram.com/mcabit_1997](https://www.instagram.com/mcabit_1997)**
 
-⭐ Support
+---
 
-If you like this project, please give it a star ⭐ on GitHub!
+## 🧑‍💻 Developer / Maintainer
 
-🎉 Thank You for Visiting!
+**Gowthama T** — MCA BIT
+Full stack & UI/UX development
 
-Where mystery meets memories ✨
+---
+
+## ⭐ Contribute / Support
+
+If you found this project useful, please ⭐ **star the repository** to support.
+
+---
+
+## 📝 License
+
+MIT License
+
+---
+
+
+
