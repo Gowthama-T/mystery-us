@@ -14,20 +14,21 @@ export interface IStorage {
 const coordinatorsData: Coordinator[] = [
   {
     id: "3",
-    name: "Girish",
+    name: "Sachin",
     role: "Event Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "8792705150",
+    phone: "9449444578",
+
   },
  
   {
     id: "5",
-    name: "Sachin",
+    name: "Girish",
     role: "Sports Head",
     type: "student",
     year: "2nd Year MCA",
-    phone: "9449444578",
+    phone: "8792705150",
   },
 
   {
@@ -37,6 +38,14 @@ const coordinatorsData: Coordinator[] = [
     type: "student",
     year: "2nd Year MCA",
     phone: "6362894336",
+  },
+  {
+    id: "11",
+    name: "Akshaya",
+    role: "Cultural Head",
+    type: "student",
+    year: "2nd Year MCA",
+    phone: "8105452990",
   },
    {
     id: "4",
